@@ -3,7 +3,6 @@ def shell_sort(a):
     h = 1
     while h < n // 9:
         h  = h * 3 + 1
-        print("이거먼저")
         
     while h > 0:
         for i in range(h, n):
